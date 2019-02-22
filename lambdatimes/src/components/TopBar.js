@@ -13,6 +13,10 @@ const ToppBar = styled.section`
     position: fixed;
     height: 44px;
     background-color: #333;
+    
+    @media (min-width: 1280px) {
+        width: 1280px;
+    }
 `;
 
 const Container = styled.section`
@@ -24,6 +28,10 @@ const Container = styled.section`
     color: #fff;
     letter-spacing: 1px;
     padding: 0 10px;
+    
+    @media (min-width: 1280px) {
+        width: 1280px;
+    }
 `;
 
 const ContainerLeft = styled.section`
